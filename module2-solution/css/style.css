@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(34, 34, 34);
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.box {
+    width: 100%;
+    overflow: none;
+    position: relative;
+}
+
+.name {
+    width: 35%;
+    height: auto;
+    padding: 1%;
+    border: 4px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    margin-top: 0;
+    right: 10%;
+}
+
+.text {
+    width: 100%;
+    padding: 3%;
+    padding-top: 50px;
+    padding-bottom: 3%;
+    background-color: rgba(33, 33, 33, 0.5);
+    text-align: justify;
+    border: 4px solid black;
+
+}
+
+.name1 {
+    background-color: rgb(240, 115, 115);
+}
+
+.name2 {
+    color: antiquewhite;
+    background-color: rgba(235, 64, 64, 0.95);
+}
+
+.name3 {
+    background-color: rgb(236, 214, 112);
+}
+
+
+/* Large */
+@media (min-width: 992px) {
+
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+        padding: 1%;
+        margin: 0;
+    }
+}
+
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-md-6 {
+        float: left;
+        width: 50%;
+        padding: 1%;
+        margin: 0;
+    }
+
+    .column-md-12 {
+        float: left;
+        width: 100%;
+        padding: 1%;
+        /* margin: auto; */
+    }
+}
+
+/* Small */
+@media (max-width: 767px) {
+    .column-sm-12 {
+        float: left;
+        width: 100%;
+        padding: 1%;
+        margin: auto;
+    }
+}
