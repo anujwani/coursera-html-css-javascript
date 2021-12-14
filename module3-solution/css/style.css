@@ -1,0 +1,85 @@
+body {
+    background-color: aliceblue;
+    font-size: 16px;
+}
+
+/* NAVBAR */
+nav .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar {
+    background-color: rgba(129, 129, 129, 0.925);
+    padding-bottom: 0px;
+}
+
+.navbar-light .navbar-toggler-icon {background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.95%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
+
+.navbar .navbar-toggler {
+    color: rgb(0, 0, 0, 0.55);
+}
+
+.navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.1rem;
+}
+
+.navbar button {
+    margin-right: 2.5%;
+}
+
+#header-navbar-brand-name {
+    color: #000;
+    font-size: 1.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 2.5%;
+}
+
+div#navbarSupportedContent {
+    border: 2px solid black;
+    border-top: 2px solid black;
+}
+
+li.nav-item {
+    padding: 5px;
+    font-size: large;
+    background-color: aliceblue;
+    font-weight: bold;
+    color: #000;
+}
+
+li hr.dropdown-divider{
+    margin: 0;
+    border: 1px solid rgba(70, 69, 69, 0.87);
+}
+
+/* NAVBAR */
+
+
+/* MAIN */
+#main-page-title {
+    margin-top: 20px;
+    margin-bottom: 5%;
+    padding: 5px;
+    font-size: 2em;
+}
+
+#content-subheading {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#main-content {
+    background-color: rgba(129, 129, 129, 0.925);
+    padding: 20px;
+    margin: 25px;
+}
+
+#main-content p {
+    color: black;
+    text-align: justify;
+}
