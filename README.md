@@ -5,3 +5,5 @@
 ### Module 3 Assignment: [Solution](https://anujwani.github.io/coursera-html-css-javascript/module3-solution/index.html)
 
 ### Module 4 Assignment: [Solution](https://anujwani.github.io/coursera-html-css-javascript/module4-solution/index.html)
+
+### Module 5 Assignment: [Solution](https://anujwani.github.io/coursera-html-css-javascript/module5-solution/index.html)
